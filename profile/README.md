@@ -1,13 +1,23 @@
-# TouchedByAnAgent
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TouchedByAnAgent/.github/main/profile/assets/banner.jpg" alt="Dark banner in amber and magenta: a smart ring and a small handheld device emit radio ripples while a glowing robotic hand reaches toward them across flowing signal waves and circuit traces" width="100%">
+</p>
 
-Small Python utilities and agent skills for talking to Bluetooth Low Energy devices.
+<h1 align="center">TouchedByAnAgent</h1>
+
+<p align="center"><b>Small Python utilities and agent skills for talking to Bluetooth Low Energy devices.</b></p>
+
+## What we do
+
+We work out how specific BLE devices behave, then package what was validated as a small command-line tool or an agent skill that a coding agent can run directly. Everything works at the local Bluetooth layer.
 
 ## Repositories
 
-- [`oura-full-read`](https://github.com/TouchedByAnAgent/oura-full-read): direct Bluetooth and heart-rate reader utilities for Oura rings and standard BLE heart-rate devices.
-- [`oura-full-read-skill`](https://github.com/TouchedByAnAgent/oura-full-read-skill): the same reader packaged as an agent skill.
-- [`joyhub-virtuoso2-controller`](https://github.com/TouchedByAnAgent/joyhub-virtuoso2-controller): minimal BLE controller and Codex skill for one tested device, the J-Virtuoso2.
-- [`joyhub-virtuoso2-skill`](https://github.com/TouchedByAnAgent/joyhub-virtuoso2-skill): agent skill and bundled control script for the same device.
+| Repository | What it is |
+| --- | --- |
+| [`oura-full-read`](https://github.com/TouchedByAnAgent/oura-full-read) | Direct Bluetooth and heart-rate reader utilities for Oura rings and standard BLE heart-rate devices. |
+| [`oura-full-read-skill`](https://github.com/TouchedByAnAgent/oura-full-read-skill) | The same reader packaged as an agent skill. |
+| [`joyhub-virtuoso2-controller`](https://github.com/TouchedByAnAgent/joyhub-virtuoso2-controller) | Minimal BLE controller and Codex skill for one tested device, the J-Virtuoso2. |
+| [`joyhub-virtuoso2-skill`](https://github.com/TouchedByAnAgent/joyhub-virtuoso2-skill) | Agent skill and bundled control script for the same device. |
 
 ## Limits
 
@@ -16,4 +26,6 @@ Small Python utilities and agent skills for talking to Bluetooth Low Energy devi
 - Some READMEs contain paid affiliate product links, disclosed in those READMEs.
 - These repositories do not currently carry a license file; ask before reusing the code.
 
-[Contributing](https://github.com/TouchedByAnAgent/.github/blob/main/CONTRIBUTING.md) · [Support](https://github.com/TouchedByAnAgent/.github/blob/main/SUPPORT.md) · [Security](https://github.com/TouchedByAnAgent/.github/blob/main/SECURITY.md) · Steward: Complete Tech LLC
+<p align="center">
+<a href="https://github.com/TouchedByAnAgent/.github/blob/main/CONTRIBUTING.md">Contributing</a> · <a href="https://github.com/TouchedByAnAgent/.github/blob/main/SUPPORT.md">Support</a> · <a href="https://github.com/TouchedByAnAgent/.github/blob/main/SECURITY.md">Security</a> · Steward: Complete Tech LLC
+</p>
