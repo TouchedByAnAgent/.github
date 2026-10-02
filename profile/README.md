@@ -24,7 +24,7 @@ We work out how specific BLE devices behave, then package what was validated as 
 - Each tool was validated against specific devices, as its README states. Other devices are not claimed to work.
 - They work at the local Bluetooth layer; the Oura repositories do not use the Oura app or cloud API.
 - Some READMEs contain paid affiliate product links, disclosed in those READMEs.
-- These repositories do not currently carry a license file; ask before reusing the code.
+- The public repositories are released under the MIT License; see each repository's LICENSE.
 
 <p align="center">
 <a href="https://github.com/TouchedByAnAgent/.github/blob/main/CONTRIBUTING.md">Contributing</a> · <a href="https://github.com/TouchedByAnAgent/.github/blob/main/SUPPORT.md">Support</a> · <a href="https://github.com/TouchedByAnAgent/.github/blob/main/SECURITY.md">Security</a> · Steward: Complete Tech LLC
