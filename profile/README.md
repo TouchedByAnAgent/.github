@@ -12,12 +12,25 @@ We work out how specific BLE devices behave, then package what was validated as 
 
 ## Repositories
 
+### Oura heart-rate reader
+
 | Repository | What it is |
 | --- | --- |
-| [`oura-full-read`](https://github.com/TouchedByAnAgent/oura-full-read) | Direct Bluetooth and heart-rate reader utilities for Oura rings and standard BLE heart-rate devices. |
-| [`oura-full-read-skill`](https://github.com/TouchedByAnAgent/oura-full-read-skill) | The same reader packaged as an agent skill. |
-| [`joyhub-virtuoso2-controller`](https://github.com/TouchedByAnAgent/joyhub-virtuoso2-controller) | Minimal BLE controller and Codex skill for one tested device, the J-Virtuoso2. |
-| [`joyhub-virtuoso2-skill`](https://github.com/TouchedByAnAgent/joyhub-virtuoso2-skill) | Agent skill and bundled control script for the same device. |
+| [`oura-full-read`](https://github.com/TouchedByAnAgent/oura-full-read) | Direct Bluetooth and heart-rate reader utilities for Oura and standard BLE HR devices |
+| [`oura-full-read-skill`](https://github.com/TouchedByAnAgent/oura-full-read-skill) | Agent skill for reading Oura rings and standard BLE heart-rate monitors over Bluetooth |
+
+### Joyhub J-Virtuoso2 device
+
+| Repository | What it is |
+| --- | --- |
+| [`joyhub-virtuoso2-controller`](https://github.com/TouchedByAnAgent/joyhub-virtuoso2-controller) | Minimal BLE controller and Codex skill for the tested J-Virtuoso2 device |
+| [`joyhub-virtuoso2-skill`](https://github.com/TouchedByAnAgent/joyhub-virtuoso2-skill) | Agent skill and bundled control script for the validated J-Virtuoso2 BLE device |
+
+### Organization
+
+| Repository | What it is |
+| --- | --- |
+| [`.github`](https://github.com/TouchedByAnAgent/.github) | Organization profile and community health files for TouchedByAnAgent. |
 
 ## Limits
 
