@@ -1,0 +1,44 @@
+name: Bug report
+description: Something did not behave as the README or command output says it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not post Bluetooth addresses, serial numbers, device codes or other identifiers, yours or anyone else's. Write "redacted" instead. For security problems, do not use this form; see the security policy.
+  - type: input
+    id: device
+    attributes:
+      label: Device model
+      description: The make and model of the device you ran against, or "none" if you did not use hardware.
+    validations:
+      required: true
+  - type: dropdown
+    id: dry-run
+    attributes:
+      label: Was the command a dry run?
+      options:
+        - "Yes, a dry run only"
+        - "No, it ran against a real device"
+        - "Not applicable (for example, a unit test or an install problem)"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened, and what did you expect?
+      description: Include the exact command you ran and the output, with identifiers removed.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Python version and operating system
+    validations:
+      required: true
